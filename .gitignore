@@ -1,0 +1,72 @@
+# =========================================================================
+# .gitignore for Son Tra Herbal Tea (ASP.NET Core + Vite/React SPA)
+# =========================================================================
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Log]/
+[Ll]og/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# .NET Core / ASP.NET Core outputs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+out/
+
+# Client-app / Node.js
+**/node_modules/
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+client-app/dist/
+
+# Generated frontend output in ASP.NET Core wwwroot
+SONTRA_API/wwwroot/assets/
+SONTRA_API/wwwroot/index.html
+
+# Local Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
